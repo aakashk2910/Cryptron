@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cryptron</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="about1">
+        Cryptron is a simple application that can securely encrypt any private and confidential  file(text, audio,video). Everything is encrypted using DES Encryption algorithm.
+        Minimal permissions. No Ads.
+    </string>
+    <string name="about2">
+        We would appreciate any feedback and suggestions for improvement, reports of technical problems etc.
+    </string>
+    <string name="about3">
+        You can contact us via email:
+    </string>
+    <string name="mailid">aakashk2910@gmail.com</string>
+</resources>

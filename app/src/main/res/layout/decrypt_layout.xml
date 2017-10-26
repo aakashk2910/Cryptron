@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <!-- Image Select Label -->
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/btn_select_image"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/select"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
+            android:padding="8dp" />
+
+        <EditText android:id="@+id/passkey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Enter Passkey"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <!-- Image Select Label -->
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/btn_decrypt"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
+            android:padding="8dp"
+            android:backgroundTintMode="src_in"
+            android:backgroundTint="@android:color/holo_blue_dark"
+            android:src="@android:drawable/ic_lock_idle_lock"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+</ScrollView>
